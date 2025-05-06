@@ -1,1 +1,3 @@
 # fake-news
+
+The code starts by loading and preprocessing a dataset from an Excel file, handling missing values and feature engineering to prepare it for use in a text classification task. It then uses the Hugging Face Transformers library to tokenize the text data using pre-trained models such as DistilBERT, MobileBERT, and TinyBERT, and trains a sequence classification model on the encoded data using the Trainer class from the library. Finally, it evaluates the performance of the trained model on a test dataset and saves the trained model for future use, and also uses the saved model to create a text classification pipeline that can be used for predictions.
